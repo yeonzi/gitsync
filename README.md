@@ -8,3 +8,16 @@ Enter the work directory, initialize the git repository and setup upstream as an
 
 Then startup this script at the working directory, it works!
 
+## Story
+
+
+
+## LICENSE
+
+"THE BEER-WARE LICENSE" (Revision 43):
+
+<yeonji@ieee.org> wrote this file.  As long as you retain this notice you
+can do whatever you want with this stuff. If we meet some day, and you think
+this stuff is worth it, you can buy me a sweety curry rice in return. (cuz
+I cannot drink alcoholic beverages) Yeonji Lee.
+
