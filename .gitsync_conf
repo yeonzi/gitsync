@@ -1,2 +1,16 @@
+## Config file for git-sync.
+## Put this file in your repository to change the parameter of git-sync
 
-SYNC_TIMEOUT=300
+## Commands used by git-sync.
+# CMD_STATUS="git status --porcelain"
+# CMD_STAGE="git add --all"
+# CMD_COMMIT_MSG="echo \"[AUTO] git-sync auto commit\""
+# CMD_COMMIT="git commit -m"
+# CMD_PUSH="git push --porcelain --force"
+# CMD_PULL="git pull -q"
+
+## Sync timeout in seconds
+SYNC_TIMEOUT=10
+
+## output log file
+# LOG_FILE=/dev/stdout
