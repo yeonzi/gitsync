@@ -32,7 +32,7 @@ git_push () {
 }
 
 git_pull () {
-	write_log "Checking Remote"
+	write_log "Syncing Remote"
 	PULL_STATUS=$($CMD_PULL)
 }
 
