@@ -27,7 +27,6 @@ git_commit_all () {
 git_push () {
 	write_log "Pushing to Remote"
 	PUSH_STATUS=$($CMD_PUSH)
-	write_log ${PUSH_STATUS}
 }
 
 git_pull () {
