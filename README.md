@@ -8,6 +8,10 @@ Enter the work directory, initialize the git repository and setup upstream as an
 
 Then startup this script at the working directory, it works!
 
+## Dogfooding
+
+This code is under dogfooding
+
 ## LICENSE
 
 "THE BEER-WARE LICENSE" (Revision 43):
