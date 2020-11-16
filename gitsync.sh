@@ -49,16 +49,12 @@ while true; do
 
 	if [[ -n $GIT_STATUS ]]; then
 		git_commit_all
+		git_pull
+		git_push
 
 	else
 		write_log "Local repository is clean."
-
-	fi
-
-	git_pull
-
-	if [[ -n $GIT_STATUS ]]; then
-		git_push
+		git_pull
 
 	fi
 
