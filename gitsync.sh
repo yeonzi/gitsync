@@ -21,7 +21,6 @@ git_commit_all () {
 	STAGE_STATUS=$($CMD_STAGE)
 
 	COMMIT_MSG=$($CMD_COMMIT_MSG)
-	echo $COMMIT_MSG
 	COMMIT_STATUS=$($CMD_COMMIT "${COMMIT_MSG}")
 }
 
