@@ -46,6 +46,10 @@ write_log "Started at ${WORK_DIR}"
 
 while true; do
 
+	if [[ -e $CONF_FILE ]]; then
+		. ${CONF_FILE}
+	fi
+
 	GIT_STATUS=$($CMD_STATUS)
 
 	if [[ -n $GIT_STATUS ]]; then
