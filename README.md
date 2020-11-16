@@ -8,13 +8,15 @@ Enter the work directory, initialize the git repository and setup upstream as an
 
 Then startup this script at the working directory, it works!
 
+**I strongly suggest you to manage a gitignore file in the work directory.**
+
 ## Dogfooding
 
 This code is under [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
 
 ## Contribute
 
-Feel free to start pull request
+Feel free to start pull requests. I will merge it if it is interesting.
 
 ## LICENSE
 
@@ -34,9 +36,17 @@ I cannot drink alcoholic beverages) Yeonji Lee.
 
 ## 使用方法
 
-Enter the work directory, initialize the git repository and setup upstream as an usual repository.
+在想要同步的目录中初始化一个git项目并设置远程分支，然后在这个目录下运行此脚本即可。
 
-Then startup this script at the working directory, it works!
+**强烈建议手动维护gitignore文件。**
+
+## “狗粮机制”
+
+这个项目正在被使用[狗粮机制](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
+
+## Contribute
+
+Feel free to start pull requests. I will merge it if it is interesting.
 
 ## LICENSE
 
