@@ -13,6 +13,7 @@ Then startup this script at the working directory, it works!
 ## Dogfooding
 
 This code is under [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
+That means the commit history is a mess.
 
 ## Contribute
 
@@ -42,11 +43,11 @@ I cannot drink alcoholic beverages) Yeonji Lee.
 
 ## “狗粮机制”
 
-这个项目正在被使用[狗粮机制](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
+这个项目正在被使用[狗粮机制](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)。因此项目提交历史是一片混乱。
 
-## Contribute
+## 贡献代码
 
-Feel free to start pull requests. I will merge it if it is interesting.
+请创建自己的分支并发起合并请求。
 
 ## LICENSE
 
