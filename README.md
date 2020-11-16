@@ -10,7 +10,11 @@ Then startup this script at the working directory, it works!
 
 ## Dogfooding
 
-This code is under dogfooding
+This code is under [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
+
+## Contribute
+
+Feel free to start pull request
 
 ## LICENSE
 
