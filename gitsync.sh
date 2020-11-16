@@ -4,7 +4,7 @@ CONF_FILE=.gitsync_conf
 
 CMD_STATUS="git status --porcelain"
 CMD_STAGE="git add --all"
-CMD_COMMIT_MSG="echo \"[AUTO] git-sync auto commit\""
+CMD_COMMIT_MSG="echo \[AUTO] git-sync auto commit"
 CMD_COMMIT="git commit -m"
 CMD_PUSH="git push --porcelain --force"
 CMD_PULL="git pull -q"
