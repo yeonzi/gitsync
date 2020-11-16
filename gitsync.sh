@@ -18,6 +18,8 @@ write_log () {
 }
 
 git_commit_all () {
+	write_log "Preparing commit"
+
 	STAGE_STATUS=$($CMD_STAGE)
 
 	COMMIT_MSG=$($CMD_COMMIT_MSG)
