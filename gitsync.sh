@@ -38,7 +38,7 @@ git_pull () {
 
 if [[ -e $CONF_FILE ]]; then
 	chmod +x ${CONF_FILE}
-	exec ${CONF_FILE}
+	. ${CONF_FILE}
 fi
 
 WORK_DIR=$(pwd)
